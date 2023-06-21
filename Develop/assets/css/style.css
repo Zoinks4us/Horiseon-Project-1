@@ -10,16 +10,18 @@
 :root {
     --font-color: #ffffff;
     --bg-color: #0072bb;
+    --off-white: #d9dcd6;
+    --blue: #2589bd;
 } 
 
 body {
-    background-color: #d9dcd6;
+    background-color: var(--off-white);
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: var(--blue);
     color: var(--font-color);
 }
 
@@ -29,7 +31,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: var(--off-white);
 }
 
 .header div {
@@ -91,7 +93,7 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
+    background-color: var(--blue);
     margin-bottom: 32px;
     color: var(--font-color);
 }
@@ -117,34 +119,6 @@ p {
     background-color: var(--bg-color);
     color: var(--font-color);
 
-}
-
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--font-color);
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color:  var(--bg-color);
-    color: var(--font-color);
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--font-color);
 }
 
 .main-points img{
